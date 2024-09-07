@@ -1,15 +1,14 @@
-
 {
-  "version": 2,
-  "functions": {
-    "api/chatbot.py": {
-      "runtime": "python3.12"
-    }
+  "name": "chatbot-server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
   },
-  "routes": [
-    {
-      "src": "/chat",
-      "dest": "/api/chatbot.py"
-    }
-  ]
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1"
+  },
+  "engines": {
+    "node": "14.x"
+  }
 }
