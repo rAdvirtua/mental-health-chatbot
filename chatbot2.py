@@ -23,7 +23,9 @@ app = Flask(__name__)
     
 # Define the chat endpoint
 @app.route('/chat', methods=['POST'])
+
 def chat():
+    print('Received request:', request.json)
     # Parse the incoming JSON data from the request
     data = request.json
 
@@ -47,5 +49,6 @@ def chat():
 
 # Run the Flask app
 if __name__ == "__main__":
+    print('Flask app is running on http://localhost:5000')
     print("Server is running. Start chatting with the mental health chatbot!")
     app.run(host='0.0.0.0', port=5000)
