@@ -1,5 +1,10 @@
 {
+
   "version": 2,
+  "functions": {
+    "api/chatbot.py": {
+      "runtime": "python3.12"
+    },
   "builds": [
     {
       "src": "chatbot2.py",
