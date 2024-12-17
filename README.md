@@ -1,5 +1,5 @@
 To use this project, you need to have the following requirements :
-1. Download the Llama 3.5 model from the Ollama website (Detailed guide on this can be found on youtube)
+1. Download the Llama 3 model from the Ollama website (Detailed guide on this can be found on youtube)
 2. Install the packages referenced in the python code
 3. Download Node.js
 4. Download ngrok to deploy the website (Optional)
